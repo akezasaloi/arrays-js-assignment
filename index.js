@@ -14,7 +14,9 @@ let arr3 = [ -5, 9, 5, 3, 2, -3, 6, 8, 4, 1 ];
 arr3.sort();
  console.log(arr3);
  //Question4
-
+ let arr = ["boy", "man", "girl", "school", "girl", "woman"];
+ let saloiArr = arr.filter((item, index) => arr.indexOf(item) === index);
+ console.log(saloiArr)
  //Question 5
  let arr5 = ["the","way","x",4]
  let findingFood = arr5.find(arr5 => arr5 == "Food");
